@@ -1,0 +1,378 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+h1,h2,h3,p {
+    color: white;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    border: 2px solid #ffffff31;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.home-machine-learning-button {
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    height: fit-content;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+    border-radius: 30px;
+    border: 2px solid #ffffff31;
+}
+
+.home-machine-learning-button:hover {
+    background-color: green;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.home-data-science-container {
+    display: flex;
+    align-items: center;
+}
+
+.home-data-science {
+    color: #fec865;
+}
+
+.home-data-science-p {
+    width: 150px;
+    padding-left: 10px;
+}
+
+.home-machine-learning-container {
+    display: flex;
+    align-items: center;
+}
+
+.home-machine-learning {
+    color: #6ed4f6;
+    padding-left: 10px;
+}
+
+.home-software-engineer {
+    color: #dda0dd;
+    padding-left: 10px;
+}
+
+.home-software-engineer-container {
+    display: flex;
+}
+
+.home-product-message {
+    padding-top: 10px;
+    width: 40rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.span-LLM {
+    color: #fec865;
+}
+
+.span-AI {
+    color: #6ed4f6;
+}
+
+.span-other {
+    color: #dda0dd;
+}
+
+.home-socials-links {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid #ffffff31;
+    padding-bottom: 5rem;
+    width: 90%;
+}
+
+.home-social-linkedin, .home-social-github, .home-social-resume {
+    height: 3rem;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.home-social-resume {
+    border-radius: 2px;
+}
+
+.home-social-linkedin:hover, .home-social-github:hover, .home-social-resume:hover {
+    height: 3.2rem;
+    width: auto;
+}
+
+.home-social-github {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.techstack-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-tech-stack-title, .my-experience-title, .my-projects-title {
+    font-size: 4rem;
+    margin: 50px;
+}
+
+.my-projects-title {
+    margin-bottom: 5rem;
+}
+
+.home-techstack-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 95rem;
+    border-bottom: 2px solid #ffffff31;
+    padding-bottom: 3rem;
+}
+
+.home-techstack-data-science, .home-techstack-AI, 
+.home-techstack-swe-web, .home-techstack-management {
+    height: auto;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid #ffffff31;
+    margin: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.8rem;
+    color: white;
+    text-align: left;
+    /* box-shadow:
+    0px 0px 3.1px -5px rgba(255, 255, 255, 0.024),
+    0px 0px 7.4px -5px rgba(255, 255, 255, 0.036),
+    0px 0px 14px -5px rgba(255, 255, 255, 0.046),
+    0px 0px 25px -5px rgba(255, 255, 255, 0.057),
+    0px 0px 46.8px -5px rgba(255, 255, 255, 0.071),
+    0px 0px 112px -5px rgba(255, 255, 255, 0.1)
+  ; */
+}
+
+.home-techstack-data-science {
+    box-shadow:
+    0px 0px 3.1px -5px rgba(253, 244, 0, 0.024),
+    0px 0px 7.4px -5px rgba(253, 244, 0, 0.036),
+    0px 0px 14px -5px rgba(253, 244, 0, 0.046),
+    0px 0px 25px -5px rgba(253, 244, 0, 0.057),
+    0px 0px 46.8px -5px rgba(253, 244, 0, 0.071),
+    0px 0px 112px -5px rgba(253, 244, 0, 0.1)
+  ;
+}
+
+.home-techstack-AI {
+    box-shadow:
+    0px 0px 3.1px -5px rgba(0, 28, 244, 0.024),
+    0px 0px 7.4px -5px rgba(0, 28, 244, 0.036),
+    0px 0px 14px -5px rgba(0, 28, 244, 0.046),
+    0px 0px 25px -5px rgba(0, 28, 244, 0.057),
+    0px 0px 46.8px -5px rgba(0, 28, 244, 0.071),
+    0px 0px 112px -5px rgba(0, 28, 244, 0.1)
+  ;
+}
+
+.home-techstack-swe-web {
+    box-shadow:
+    0px 0px 3.1px -5px rgba(244, 0, 224, 0.024),
+    0px 0px 7.4px -5px rgba(244, 0, 224, 0.036),
+    0px 0px 14px -5px rgba(244, 0, 224, 0.046),
+    0px 0px 25px -5px rgba(244, 0, 224, 0.057),
+    0px 0px 46.8px -5px rgba(244, 0, 224, 0.071),
+    0px 0px 112px -5px rgba(244, 0, 224, 0.1)
+  ;
+}
+
+.home-techstack-management {
+    box-shadow: 
+    0px 0px 3.1px -5px rgba(255, 255, 255, 0.024),
+    0px 0px 7.4px -5px rgba(255, 255, 255, 0.036),
+    0px 0px 14px -5px rgba(255, 255, 255, 0.046),
+    0px 0px 25px -5px rgba(255, 255, 255, 0.057),
+    0px 0px 46.8px -5px rgba(255, 255, 255, 0.071),
+    0px 0px 112px -5px rgba(255, 255, 255, 0.1)
+    ;
+}
+
+.home-data-science-icons, .home-AI-icons,
+.home-swe-web-icons, .home-management-icons {
+    flex-wrap: wrap;
+}
+
+.home-techstack-container img {
+    height: 3rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in;
+}
+
+.home-techstack-container img:hover {
+    height: 3.3rem;
+}
+
+.home-techstack-container h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.home-scikit-logo {
+    background-color: white;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.javascript-logo {
+    border-radius: 5px;
+}
+
+.github-logo {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.tooltip {
+    background-color: blue;
+    color: blue;
+}
+
+.vercel-logo {
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.swift-logo {
+    border-radius: 5px;
+}
+
+.projects-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-content-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #ffffff31;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    align-items:baseline;
+    width: 90%;
+    color: white;
+    height: 100%;
+}
+
+.project-images {
+    align-self:normal;
+    margin-top: 0px;
+    transition: 1s ease-in;
+}
+
+.project-images div h2 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.project-1-top, .project-2-top, .project-3-top, .project-4-top {
+    display: flex;
+}
+
+.projects-left-content div {
+    max-width: 50rem;
+}
+
+.projects-left-content {
+    line-height: 2.5rem;
+}
+
+.projects-left-content h2 {
+    font-size: 1.7rem;
+}
+
+.projects-left-content li {
+    font-size: 1.2rem;
+}
+
+.projects-left-content div img {
+    border-radius: 30px;
+    height: 3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.projects-left-content div img:hover {
+    height: 3.2rem;
+}
+
+.projects-content-container img { 
+    height: 17rem;
+}
+
+.project-1, .project-2, .project-3, .project-4 {
+    padding-bottom: 5rem;
+}
+
+.logistic-img, .linear-img, .frog-img, .tree-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    height: 25rem;
+    width: 25rem;
+    padding: 1.5rem;
+}
+
+.experience-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+.experience-1-image, .experience-2-image, .experience-3-image {
+    width: 15%;
+    border-radius: 5px;
+}
+
+.experience-1, .experience-2, .experience-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-bottom: 3rem;
+}
+
+.experience-1-text, .experience-2-text, .experience-3-text {
+    line-height: 2rem;
+    width: 75%;
+}

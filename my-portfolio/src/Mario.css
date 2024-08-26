@@ -1,0 +1,13 @@
+.mario-cursor {
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    height: 100px;
+    z-index: -1;
+    width: auto;
+    box-sizing: border-box;
+    transition: 0.1s;
+    pointer-events: none;
+    animation: mario-cursor-spin infinite 5s linear;
+}
