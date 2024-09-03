@@ -23,7 +23,7 @@ export function Home() {
             <div className='home-socials-links'>
                 <a href='https://www.linkedin.com/in/maharshii-patel' rel='noopener' target='_blank'><img className='home-social-linkedin' src={LinkedIn}/></a>
                 <a href='https://github.com/patelMaharshii' rel='noopener' target='_blank'><img className='home-social-github' src={Github}/></a>
-                <a href='https://www.linkedin.com/in/maharshii-patel/overlay/1724732707467/single-media-viewer/?profileId=ACoAAEfcYbcBmzBI9wVEp8Jkhz6dw5y0jp3lZmk' rel='noopener' target='_blank'><img className='home-social-resume' src='https://www.pngitem.com/pimgs/m/495-4952625_resume-icon-black-and-white-png-download-resume.png'/></a>
+                <a href='https://maharshii-resume.tiiny.site' rel='noopener' target='_blank'><img className='home-social-resume' src='https://www.pngitem.com/pimgs/m/495-4952625_resume-icon-black-and-white-png-download-resume.png'/></a>
             </div>
         </div>
     );
